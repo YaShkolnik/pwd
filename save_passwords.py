@@ -1,3 +1,6 @@
+print('Welcome to "password saver"!\nWrite "help" to see commands.')
+
+
 def req_pwd():
     web = input('Website name: ')
     passwd = input('Password: ')
