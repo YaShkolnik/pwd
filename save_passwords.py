@@ -20,5 +20,7 @@ while True:
         req_pwd()
     elif command == 'show_pwds':
         print(read_pwd())
+    elif command == 'help':
+        print('"save_pwd" - add website address and password to save password\n"show_pwds" - see saved passwords')
     else:
         print('Command not found.')
